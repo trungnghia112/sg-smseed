@@ -90,5 +90,5 @@ a.btn { text-decoration:none; }
 #lightbox-image-details-caption { font-weight: bold; }
 #lightbox-image-details-currentNumber { display: block; clear: left; padding-bottom: 1.0em; }
 #lightbox-secNav-btnClose { width: 66px; float: right; padding-bottom: 0.7em; }
-.lightbox { margin-bottom:5px; position:relative; display:inline-block; }
+.lightbox { margin-bottom:5px; position:relative; display:block; }
 .lightbox:after { display:block; position:absolute; right:0; bottom:0; width:24px; height:24px; content:""; background:rgba(0, 0, 0, 0.3) url(../common_img/ico_zoom.png) center center no-repeat; background-size: 24px 24px; }
