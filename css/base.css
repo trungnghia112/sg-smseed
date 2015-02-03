@@ -246,20 +246,17 @@ p, li, pre, td, th, dt, dd { line-height:1.5; }  /* 基本の行の高さ */
 -------------------------------------------------- */
 /* 3カラムデザイン（※ulに.col03を追加する事で切り替え） */
 .col03:after { display:block; clear:both; content:""; }
-.col03>li { width:31.9%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; margin-bottom:10px; }
+.col03>li { width:32%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; margin-bottom:10px;float:left}
 /* 右(1)カラム */
 .col03>li:nth-of-type(3n-2) {
- float:left;
  clear:both;
 }
 /* 左(3)カラム */
-.col03>li:nth-of-type(3n) {
- float:left;
-}
+.col03>li:nth-of-type(3n) { }
 /* 中央(2)カラム */
 .col03>li:nth-of-type(3n-1) {
- margin: 0 2%;/* ここで余白設定(余白を指定した場合は.col03>liのwidthを変更) */
- float:left;
+ margin-left:2%;
+ margin-right:2%;/* ここで余白設定(余白を指定した場合は.col03>liのwidthを変更) */
 }
 
 /* 
