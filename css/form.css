@@ -14,5 +14,5 @@ textarea.form_control:focus { height:auto; }
 /* ---IME ON--- */
 .ime_on { ime-mode: active; }
 /* ---IME KILL--- */
-.ime_off { ime-mode: desabled; }
+.ime_off { ime-mode: disabled; }
 .btn_submit { background-color: #d1d1d1; }
