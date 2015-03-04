@@ -94,7 +94,7 @@ For all usage and documentation please see: <a href="http://cdg2.demopage.jp/htm
 &lt;/body&gt;
 &lt;/html&gt;</pre>
 <h2>Version</h2>
-<p>1.0.0 - Beta</p>
+<p>1.1.0 - Beta</p>
 <h2>Creators</h2>
 <p><strong>trungnghia112</strong></p>
 <ul>
