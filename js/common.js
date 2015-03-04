@@ -1,7 +1,7 @@
 // JavaScript Document
 $(function() {
 	
-	var portraitWidth,landscapeWidth;
+	/*var portraitWidth,landscapeWidth;
 	$(window).bind("resize", function(){
 		if(Math.abs(window.orientation) === 0){
 			if(/Android/.test(window.navigator.userAgent)){
@@ -18,7 +18,7 @@ $(function() {
 			}
 			$("html").css("zoom" , landscapeWidth/320 );
 		}
-	}).trigger("resize");
+	}).trigger("resize");*/
 	
 	
 	$('.tn_btn_maxheight').on('click',function(){
