@@ -69,6 +69,10 @@ output { display:block; padding-top:7px; font-size:14px; line-height:1.42857143;
 .btn_sm { border-radius: 3px; font-size:88.9%; line-height: 1.5; padding: 2px 7px; }
 .btn_xs { border-radius: 2px; font-size:72.3%; line-height: 1.5; padding: 1px 5px; }
 a.btn { text-decoration:none; }
+.embed_responsive { position: relative; display: block; height: 0; padding: 0; overflow: hidden; }
+.embed_responsive .embed_responsive_item, .embed_responsive iframe, .embed_responsive embed, .embed_responsive object, .embed_responsive video { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; }
+.embed_responsive.embed_responsive_16by9 { padding-bottom: 56.25%; }
+.embed_responsive.embed_responsive_4by3 { padding-bottom: 75%; }
 /* lightbox */
 #jquery-overlay { position: absolute; top: 0; left: 0; z-index: 900; width: 100%; height: 500px; }
 #jquery-lightbox { position: absolute; top: 0; left: 0; width: 100%; z-index: 1000; text-align: center; line-height: 0; }

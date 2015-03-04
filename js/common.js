@@ -9,14 +9,14 @@ $(function() {
 			}else{
 				portraitWidth=$(window).width();
 			}
-			$("html").css("zoom" , portraitWidth/640 );
+			$("html").css("zoom" , portraitWidth/320 );
 		}else{
 			if(/Android/.test(window.navigator.userAgent)){
 				if(!landscapeWidth)landscapeWidth=$(window).width();
 			}else{
 				landscapeWidth=$(window).width();
 			}
-			$("html").css("zoom" , landscapeWidth/640 );
+			$("html").css("zoom" , landscapeWidth/320 );
 		}
 	}).trigger("resize");
 	
