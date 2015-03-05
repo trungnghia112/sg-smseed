@@ -22,7 +22,7 @@
 ----------------------------------------------------------------------------------------------------
  □ tag
 ---------------------------------------------------------------------------------------------------- */
-html { background-color:#CCC; /* 画面外背景色 */ font-family:メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+html { background-color:#CCC; /* 画面外背景色 */ font-family:"Meiryo", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
 body { position: relative; margin: 0 auto; }
 p, li, pre, td, th, dt, dd { line-height:1.5; }  /* 基本の行の高さ */
 /* 
@@ -246,7 +246,7 @@ p, li, pre, td, th, dt, dd { line-height:1.5; }  /* 基本の行の高さ */
 -------------------------------------------------- */
 /* 3カラムデザイン（※ulに.col03を追加する事で切り替え） */
 .col03:after { display:block; clear:both; content:""; }
-.col03>li { width:32%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; margin-bottom:10px;float:left}
+.col03>li { width:32%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; margin-bottom:10px; float:left }
 /* 右(1)カラム */
 .col03>li:nth-of-type(3n-2) {
  clear:both;
@@ -258,13 +258,11 @@ p, li, pre, td, th, dt, dd { line-height:1.5; }  /* 基本の行の高さ */
  margin-left:2%;
  margin-right:2%;/* ここで余白設定(余白を指定した場合は.col03>liのwidthを変更) */
 }
-
 /* 
 --------------------------------------------------
  ▽ 新着などのページネーション
 -------------------------------------------------- */
-.pagination{ padding:0 2%;}
-
+.pagination { padding:0 2%; }
 .pagination a { line-height:42px; }
 /* 前へ */
 .pagination .page_prev { float:left; }
