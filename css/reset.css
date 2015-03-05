@@ -39,7 +39,7 @@ img { vertical-align:middle; max-width:100%; }
 .img_rounded { border-radius:6px }
 .img_thumbnail { display:inline-block; width:100% \9; max-width:100%; height:auto; padding:3px; line-height:1.42857143; background-color:#fff; border:1px solid #ddd; }
 .img_circle { border-radius:50% }
-p { margin:0 0 10px }
+p { margin:0}
 .table { width:100%; max-width:100%; margin-bottom:10px }
 .table tr>th, .table tr>th, .table tr>th, .table tr>td, .table tr>td, .table tr>td { padding:8px; line-height:1.42857143; vertical-align:top; border-bottom:1px solid #ddd; text-align:left }
 .table>tbody+tbody { border-top:1px solid #ddd }

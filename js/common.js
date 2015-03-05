@@ -1,26 +1,5 @@
 // JavaScript Document
 $(function() {
-	
-	/*var portraitWidth,landscapeWidth;
-	$(window).bind("resize", function(){
-		if(Math.abs(window.orientation) === 0){
-			if(/Android/.test(window.navigator.userAgent)){
-				if(!portraitWidth)portraitWidth=$(window).width();
-			}else{
-				portraitWidth=$(window).width();
-			}
-			$("html").css("zoom" , portraitWidth/320 );
-		}else{
-			if(/Android/.test(window.navigator.userAgent)){
-				if(!landscapeWidth)landscapeWidth=$(window).width();
-			}else{
-				landscapeWidth=$(window).width();
-			}
-			$("html").css("zoom" , landscapeWidth/320 );
-		}
-	}).trigger("resize");*/
-	
-	
 	$('.tn_btn_maxheight').on('click',function(){
 		var mh_father = $(this).parent( ".tn_box_maxheight" )
 		if(mh_father.hasClass('open')){
