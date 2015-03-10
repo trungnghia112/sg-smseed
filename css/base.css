@@ -283,23 +283,9 @@ p, li, pre, td, th, dt, dd { line-height:1.5; }  /* 基本の行の高さ */
 .pic_l .img { float:left; margin-right:10px; }
 .pic_r .img { float:right; margin-left:10px; }
 /*Less and More*/
-.tn_box_maxheight { margin-bottom:10px; line-height:20px; }
-.tn_box_maxheight .tn_box_maxheight_in { margin-bottom:0; line-height:20px; }
-.maxheightline-0 .tn_box_maxheight_in { max-height:0px; overflow:hidden; }
-.maxheightline-1 .tn_box_maxheight_in { max-height:20px; overflow:hidden; }
-.maxheightline-2 .tn_box_maxheight_in { max-height:40px; overflow:hidden; }
-.maxheightline-3 .tn_box_maxheight_in { max-height:60px; overflow:hidden; }
-.maxheightline-4 .tn_box_maxheight_in { max-height:80px; overflow:hidden; }
-.maxheightline-5 .tn_box_maxheight_in { max-height:100px; overflow:hidden; }
-.maxheightline-6 .tn_box_maxheight_in { max-height:120px; overflow:hidden; }
-.maxheightline-7 .tn_box_maxheight_in { max-height:140px; overflow:hidden; }
-.maxheightline-8 .tn_box_maxheight_in { max-height:160px; overflow:hidden; }
-.maxheightline-9 .tn_box_maxheight_in { max-height:180px; overflow:hidden; }
-.maxheightline-10 .tn_box_maxheight_in { max-height:200px; overflow:hidden; }
-.maxheightline-11 .tn_box_maxheight_in { max-height:220px; overflow:hidden; }
-.maxheightline-12 .tn_box_maxheight_in { max-height:240px; overflow:hidden; }
-.tn_box_maxheight.open .tn_box_maxheight_in { max-height:none; overflow:inherit; }
-.tn_btn_maxheight { text-decoration:underline; display:block; cursor:pointer; color:#3567c0; font-weight:bold; }
+.box_maxheight .maxheight_hide{ display:none; }
+.box_maxheight .maxheight_btn { text-decoration:underline; cursor:pointer; color:#3567c0; font-weight:bold; text-align:right; }
+.box_maxheight .maxheight_hide .maxheight_btn { display:block; }
 /*
 ====================================================================================================
 ■ layout
